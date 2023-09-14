@@ -169,6 +169,6 @@ export const DELETE = async (request) => {
   if (foundEnroll)
     return NextResponse.json({
       ok: true,
-      message: `Enrollment has been deleted`,
+      message: "Enrollment has been deleted",
     });
 };
